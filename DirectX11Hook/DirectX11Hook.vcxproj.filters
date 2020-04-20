@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{b7c16041-0615-48b0-8f70-9c0dc85cb994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Dx11">
+      <UniqueIdentifier>{d68eca2d-d0a7-4bb6-9478-0f2c3389f3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{55992057-0710-47f3-80ba-1b62bcaced52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Memory">
+      <UniqueIdentifier>{9b396ec4-1375-4945-ba63-9855cdc43a72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX\DxgiHook.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DxManager.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Dx11\D3D11Font.cpp">
+      <Filter>DirectX\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Dx11\D3D11Rendering.cpp">
+      <Filter>DirectX\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Common.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Log.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Memory\HookLib.cpp">
+      <Filter>Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Memory\InternalMemory.cpp">
+      <Filter>Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX\DxColors.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxgiHook.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxManager.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxRenderer.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Dx11\D3D11Hook.h">
+      <Filter>DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Dx11\D3D11Rendering.h">
+      <Filter>DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Dx11\D3D11ShaderFx.h">
+      <Filter>DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Dx11\D3D11VtableIndex.h">
+      <Filter>DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Dx11\xnamath.h">
+      <Filter>DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Common.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Log.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\Exceptions.h">
+      <Filter>Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\HookLib.h">
+      <Filter>Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\InternalMemory.h">
+      <Filter>Util\Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

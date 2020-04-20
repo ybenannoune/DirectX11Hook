@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\DirectX">
+      <UniqueIdentifier>{f6989e4f-c0d8-44c2-878b-10681328a4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DirectX\Dx11">
+      <UniqueIdentifier>{db96930e-7db7-4d82-b030-e42409c073c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\DirectX\Hooking">
+      <UniqueIdentifier>{0946e856-f023-46f9-bb5d-64f8d5dbcd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Util">
+      <UniqueIdentifier>{53a87090-403e-40ed-a8f0-b396646ce9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Util\Memory">
+      <UniqueIdentifier>{098d5b0a-9649-4240-ad92-a7791fbb18a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\MSVC">
+      <UniqueIdentifier>{74539fe1-b92d-4e3f-9f54-6a4ea09f2120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX\DX11\D3D11Rendering.h">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DX11\D3D11ShaderFx.h">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DX11\D3D11VtableIndex.h">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxColors.h">
+      <Filter>Fichiers sources\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxManager.h">
+      <Filter>Fichiers sources\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxRenderer.h">
+      <Filter>Fichiers sources\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers sources\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers sources\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Common.h">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Log.h">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\Exceptions.h">
+      <Filter>Fichiers sources\Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\InternalMemory.h">
+      <Filter>Fichiers sources\Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DxgiHook.h">
+      <Filter>Fichiers sources\DirectX\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Memory\HookLib.h">
+      <Filter>Fichiers sources\Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11DrawIndexedHook.h">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX\DX11\D3D11Font.cpp">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DX11\D3D11Rendering.cpp">
+      <Filter>Fichiers sources\DirectX\Dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Log.cpp">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Memory\HookLib.cpp">
+      <Filter>Fichiers sources\Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DxManager.cpp">
+      <Filter>Fichiers sources\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources\MSVC</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Common.cpp">
+      <Filter>Fichiers sources\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Memory\InternalMemory.cpp">
+      <Filter>Fichiers sources\Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DxgiHook.cpp">
+      <Filter>Fichiers sources\DirectX\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
